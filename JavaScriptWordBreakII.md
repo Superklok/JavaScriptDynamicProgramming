@@ -124,3 +124,22 @@ After the recursive calls, the `build` function is called with `s.length` as the
 Finally, the function returns the `res` array containing all possible combinations of words formed from `wordDict` in the string `s`.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Course Schedule)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Wildcard Matching)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Dynamic Programming Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptGraphs/blob/main/JavaScriptCourseSchedule.md
+[Previous]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptWildcardMatching.md
+[More]: https://github.com/Superklok/JavaScriptDynamicProgramming
+[Return]: https://github.com/Superklok/LearnJavaScript

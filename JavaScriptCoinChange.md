@@ -90,3 +90,22 @@ Finally, the function checks if the value of `ans` (which is equal to `dp[dp.len
 In summary, the `coinChange` function utilizes dynamic programming to calculate the minimum number of coins needed to make up a given amount using the provided coins. It returns `-1` if it is not possible to make up the amount with the given coins.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Wildcard Matching)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Rotate Array)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Dynamic Programming Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptWildcardMatching.md
+[Previous]: https://github.com/Superklok/JavaScriptQueues/blob/main/JavaScriptRotateArray.md
+[More]: https://github.com/Superklok/JavaScriptDynamicProgramming
+[Return]: https://github.com/Superklok/LearnJavaScript

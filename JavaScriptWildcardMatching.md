@@ -109,3 +109,22 @@ Finally, the function returns the value of `dp[m][n]`, which indicates whether t
 In summary, the `isMatch` function checks if a string matches a pattern with wildcard characters, using dynamic programming to track the matching possibilities.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Word Break II)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Coin Change)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Dynamic Programming Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptWordBreakII.md
+[Previous]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptCoinChange.md
+[More]: https://github.com/Superklok/JavaScriptDynamicProgramming
+[Return]: https://github.com/Superklok/LearnJavaScript

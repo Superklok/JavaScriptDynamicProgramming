@@ -51,7 +51,7 @@ Explanation: '?' matches 'c', but the second letter is 'a', which does not match
 const isMatch = (s, p) => {
     const m  = s.length,
           n  = p.length,
-          dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(false));
+          dp = Array.from({length: m + 1}, () => new Array(n + 1).fill(false));
 
     dp[0][0] = true;
 

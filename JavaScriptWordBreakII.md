@@ -53,14 +53,14 @@ const wordBreak = (s, wordDict) => {
     from[0] = [0]; 
     wordDict = new Set(wordDict);
     
-	for(let i = 1; i<=s.length; i++) {
+	for (let i = 1; i<=s.length; i++) {
         from[i] = [];
 
-		for(let j=0; j<i;j++) {
-            if(from[j].length) {
+		for (let j=0; j<i;j++) {
+            if (from[j].length) {
                 let mySubstr = s.substring(j, i);
 
-                if(wordDict.has(mySubstr)) {
+                if (wordDict.has(mySubstr)) {
                     from[i].push(j);
                 }    
             }
@@ -70,7 +70,7 @@ const wordBreak = (s, wordDict) => {
     let res = [];
 
     const build = (idx, suffix) => {
-        if(idx === 0) {
+        if (idx === 0) {
             return res.push(suffix);
         }
 
@@ -78,7 +78,7 @@ const wordBreak = (s, wordDict) => {
 
             let mySubstr = s.substring(startsAtIndex, idx);
 
-            if(suffix === '') {
+            if (suffix === '') {
                 build(startsAtIndex, mySubstr);
             } else {
                 build(startsAtIndex, mySubstr + ' ' + suffix);

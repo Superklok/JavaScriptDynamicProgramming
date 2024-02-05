@@ -12,22 +12,25 @@ Given a string `s` and a dictionary of strings `wordDict`, add spaces in `s` to 
 ### 1<sup>st</sup> Example
 
 ```JavaScript
-Input: s = 'catsanddog', wordDict = ['cat','cats','and','sand','dog']
+Input: s        = 'catsanddog',
+       wordDict = ['cat','cats','and','sand','dog']
 Output: ['cats and dog','cat sand dog']
 ```
 
 ### 2<sup>nd</sup> Example
 
 ```JavaScript
-Input: s = 'pineapplepenapple', wordDict = ['apple','pen','applepen','pine','pineapple']
+Input: s        = 'pineapplepenapple',
+       wordDict = ['apple','pen','applepen','pine','pineapple']
 Output: ['pine apple pen apple','pineapple pen apple','pine applepen apple']
-Explanation: Note that you are allowed to reuse a dictionary word.
+Explanation: You are allowed to reuse a dictionary word.
 ```
 
 ### 3<sup>rd</sup> Example
 
 ```JavaScript
-Input: s = 'catsandog', wordDict = ['cats','dog','sand','and','cat']
+Input: s        = 'catsandog',
+       wordDict = ['cats','dog','sand','and','cat']
 Output: []
 ```
 
@@ -52,11 +55,11 @@ const wordBreak = (s, wordDict) => {
 
     from[0] = [0]; 
     wordDict = new Set(wordDict);
-    
-	for (let i = 1; i<=s.length; i++) {
+
+    for (let i = 1; i<=s.length; i++) {
         from[i] = [];
 
-		for (let j=0; j<i;j++) {
+    for (let j=0; j<i;j++) {
             if (from[j].length) {
                 let mySubstr = s.substring(j, i);
 
@@ -75,16 +78,15 @@ const wordBreak = (s, wordDict) => {
         }
 
         from[idx].forEach((startsAtIndex) => {
-
             let mySubstr = s.substring(startsAtIndex, idx);
 
             if (suffix === '') {
                 build(startsAtIndex, mySubstr);
             } else {
-                build(startsAtIndex, mySubstr + ' ' + suffix);
+                build(startsAtIndex,
+                      mySubstr + ' ' + suffix);
             }    
         })
-
     }
 
     build(s.length, '');

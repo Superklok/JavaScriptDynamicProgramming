@@ -32,7 +32,8 @@ Explanation: '*' matches any sequence.
 ```JavaScript
 Input: s = 'cb', p = '?a'
 Output: false
-Explanation: '?' matches 'c', but the second letter is 'a', which does not match 'b'.
+Explanation: '?' matches 'c', but the second letter is
+             'a', which does not match 'b'.
 ```
 
 <br/>

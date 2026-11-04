@@ -20,3 +20,7 @@
 [WildcardMatching]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptWildcardMatching.md
 [WordBreakII]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptWordBreakII.md
 [CourseOutline]: https://github.com/Superklok/LearnJavaScript
+
+---
+
+💡 *If you find this course useful, reach out via [Upwork](https://www.upwork.com/freelancers/~01a2b86360ffeb733e)/[Contra](https://contra.com/Superklok) to hire Superklok Labs today!*
